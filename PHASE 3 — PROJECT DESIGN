@@ -1,0 +1,125 @@
+# Phase 3: Project Design
+
+## 1. System Architecture
+
+EduGenie follows a simple client-server architecture.
+
+Student
+   ↓
+HTML/CSS Frontend
+   ↓
+FastAPI Backend
+   ↓
+Google Gemini API
+   ↓
+AI Generated Response
+   ↓
+Response Page
+
+## 2. Architecture Components
+
+### Frontend
+
+The frontend is developed using HTML and CSS.
+
+It provides:
+
+- Project title
+- Task selection
+- Input area
+- Submit button
+
+### Backend
+
+FastAPI is used as the backend framework.
+
+It handles:
+
+- HTTP requests
+- Form submissions
+- Task selection
+- Gemini API communication
+- Response generation
+- HTML template rendering
+
+### AI Model
+
+Google Gemini is used as the Generative AI model.
+
+It processes the user input and generates the required educational response.
+
+## 3. Project Workflow
+
+1. User opens EduGenie.
+2. User selects a task.
+3. User enters a question or topic.
+4. User submits the form.
+5. FastAPI receives the request.
+6. FastAPI identifies the selected task.
+7. A suitable prompt is created.
+8. The prompt is sent to Google Gemini.
+9. Gemini generates the response.
+10. FastAPI receives the response.
+11. The response is displayed on the result page.
+
+## 4. Project Folder Structure
+
+EduGenie-Gemini-Learning-Assistant/
+
+    Phase-1-Brainstorming-Ideation/
+
+    Phase-2-Requirement-Analysis/
+
+    Phase-3-Project-Design/
+
+    Phase-4-Project-Planning/
+
+    Phase-5-Project-Development/
+
+        app.py
+        requirements.txt
+
+        templates/
+            index.html
+            response.html
+
+        static/
+            style.css
+
+    Phase-6-Project-Testing/
+
+    Phase-7-Project-Documentation/
+
+    Phase-8-Project-Demonstration/
+
+    README.md
+
+## 5. Data Flow
+
+User Input
+   ↓
+HTML Form
+   ↓
+POST /ask
+   ↓
+FastAPI
+   ↓
+Task Selection
+   ↓
+Prompt Creation
+   ↓
+Google Gemini
+   ↓
+Generated Response
+   ↓
+response.html
+
+## 6. Design Goals
+
+The system is designed to be:
+
+- Simple
+- User-friendly
+- Easy to maintain
+- AI-powered
+- Suitable for student learning
