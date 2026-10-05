@@ -1,0 +1,122 @@
+# Phase 2: Requirement Analysis
+
+## 1. Introduction
+
+Requirement analysis identifies the functional and technical requirements needed to develop EduGenie.
+
+## 2. Functional Requirements
+
+The application should allow the user to:
+
+1. Open the EduGenie home page.
+2. Select a learning task.
+3. Enter a question or topic.
+4. Submit the input.
+5. Send the input to the FastAPI backend.
+6. Process the request using Google Gemini.
+7. Generate an AI response.
+8. Display the response to the user.
+
+## 3. Learning Features
+
+### Q&A
+
+Input:
+Student's academic question.
+
+Output:
+Simple AI-generated answer.
+
+### Explain
+
+Input:
+Topic requiring explanation.
+
+Output:
+Simple explanation of the topic.
+
+### Quiz
+
+Input:
+Topic.
+
+Output:
+Three multiple-choice questions with four options and correct answers.
+
+### Summary
+
+Input:
+Topic or text.
+
+Output:
+Short and simple summary.
+
+### Learning Path
+
+Input:
+Topic.
+
+Output:
+Beginner, intermediate, advanced topics and suggested learning resources.
+
+## 4. Non-Functional Requirements
+
+### Usability
+
+The application should have a simple and easy-to-use interface.
+
+### Performance
+
+The application should process requests and display responses efficiently.
+
+### Reliability
+
+The application should handle errors without crashing the complete web application.
+
+### Security
+
+The Gemini API key should be stored as an environment variable and should not be exposed in the source code.
+
+### Maintainability
+
+The project should use a simple folder structure with separate HTML and CSS files.
+
+## 5. Hardware Requirements
+
+A basic computer, laptop, tablet, or mobile device with internet access is sufficient for accessing the application.
+
+## 6. Software Requirements
+
+- Python 3.10+
+- FastAPI
+- Uvicorn
+- Jinja2
+- Python-dotenv
+- Google GenAI SDK
+- HTML
+- CSS
+- GitHub
+- Render
+
+## 7. API Requirement
+
+Google Gemini API is required for generating AI responses.
+
+The API key is stored using:
+
+GEMINI_API_KEY
+
+## 8. Development Requirements
+
+The application requires:
+
+- FastAPI backend
+- Jinja2 templates
+- Static CSS files
+- Google Gemini API integration
+- Form handling
+- Web deployment
+
+## 9. Conclusion
+
+The requirement analysis defines the functional, technical, and software requirements needed to develop EduGenie successfully.
