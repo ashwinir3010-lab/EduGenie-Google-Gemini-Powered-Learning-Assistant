@@ -1,0 +1,84 @@
+# Phase 1: Brainstorming and Ideation
+
+## Project Title
+
+EduGenie: Google Gemini Powered Learning Assistant
+
+## 1. Introduction
+
+EduGenie is an AI-powered learning assistant designed to help students understand academic topics in a simple and interactive way.
+
+The project uses Google Gemini Generative AI with a FastAPI backend and a simple HTML/CSS frontend.
+
+## 2. Problem Statement
+
+Students often face difficulties while understanding complex academic topics. They may need simple explanations, quick summaries, practice questions, or a structured learning path.
+
+Searching for each requirement separately can take time.
+
+Therefore, EduGenie is designed as a single web application that provides multiple AI-based learning features in one place.
+
+## 3. Proposed Solution
+
+EduGenie provides the following features:
+
+- Question and Answer
+- Topic Explanation
+- Quiz Generation
+- Summary Generation
+- Learning Path
+
+The student selects a task, enters a question or topic, and receives an AI-generated response.
+
+## 4. Project Idea
+
+The main idea is to combine Generative AI and web technology to create a simple learning assistant.
+
+Google Gemini is used to understand the student's input and generate an appropriate response.
+
+FastAPI is used to handle the backend requests, while HTML and CSS are used to create the user interface.
+
+## 5. Target Users
+
+The main target users are:
+
+- College students
+- School students
+- Self-learners
+- Students preparing for examinations
+
+## 6. Key Features
+
+### Q&A
+
+Students can ask academic questions and receive simple answers.
+
+### Explain
+
+Students can enter a difficult topic and receive an easy-to-understand explanation.
+
+### Quiz
+
+Students can enter a topic and receive multiple-choice questions for practice.
+
+### Summary
+
+Students can enter a topic or text and receive a short summary.
+
+### Learning Path
+
+Students can enter a topic and receive a step-by-step learning path.
+
+## 7. Benefits
+
+- Simple learning experience
+- Quick academic assistance
+- AI-based explanations
+- Self-learning support
+- Quick revision through summaries
+- Practice through quizzes
+- Structured learning through learning paths
+
+## 8. Conclusion
+
+EduGenie aims to make learning easier by bringing multiple AI-powered educational features into one simple web application.
