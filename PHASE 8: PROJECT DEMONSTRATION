@@ -1,0 +1,91 @@
+Phase 8: Project Demonstration
+
+1. Project Title
+
+EduGenie: Google Gemini Powered Learning Assistant
+
+2. Demonstration Objective
+
+The demonstration video shows the working of the EduGenie application and explains its main features.
+
+3. Demonstration Contents
+
+The demonstration includes:
+
+1. Project Introduction
+2. EduGenie Home Page
+3. Q&A Feature
+4. Explain Feature
+5. Quiz Feature
+6. Summary Feature
+7. Learning Path Feature
+8. Final Project Output
+
+4. Demonstration Flow
+
+Introduction
+
+The project name and purpose are introduced.
+
+Home Page
+
+The EduGenie interface and available learning options are shown.
+
+Q&A
+
+Input:
+
+What is photosynthesis?
+
+The generated response is displayed.
+
+Explain
+
+Input:
+
+Explain Newton's law of motion in simple words.
+
+The generated explanation is displayed.
+
+Quiz
+
+Input:
+
+photosynthesis
+
+EduGenie generates multiple-choice questions.
+
+Summary
+
+Input:
+
+photosynthesis
+
+EduGenie generates a short summary.
+
+Learning Path
+
+Input:
+
+Python
+
+EduGenie generates a structured learning path.
+
+Final Output
+
+The completed EduGenie application is shown.
+
+5. Demo Video
+
+Demo Video Link:https://drive.google.com/file/d/1ytzANNF_zn2l0ZJ5OyCMGc9p0EDcGI1T/view?usp=drivesdk
+
+
+google drive sharing permission:
+ anyone with the link -viewer
+
+6. GitHub Repository
+
+https://github.com/Nandhini-N286/Vetri-Thiran-Payirrchi-Thittam/tree/main
+7. Conclusion
+
+The demonstration shows the complete working process of EduGenie and its AI-powered educational features.
