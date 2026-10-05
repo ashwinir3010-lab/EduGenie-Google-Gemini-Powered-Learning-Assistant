@@ -1,0 +1,133 @@
+---
+
+# PHASE 6 — PROJECT TESTING
+
+**Suggested file:** `Phase-6-Project-Testing/README.md`
+
+```markdown
+# Phase 6: Project Testing
+
+## 1. Introduction
+
+Testing was performed to verify that all major EduGenie features work correctly.
+
+## 2. Testing Objectives
+
+The objectives of testing were:
+
+- Verify the home page.
+- Verify task selection.
+- Verify form submission.
+- Verify FastAPI routes.
+- Verify Gemini API integration.
+- Verify AI-generated responses.
+- Verify the response page.
+- Verify deployment.
+
+## 3. Q&A Testing
+
+### Input
+
+What is photosynthesis?
+
+### Expected Result
+
+EduGenie should generate a simple explanation of photosynthesis.
+
+### Result
+
+The Q&A feature generated an AI response successfully during testing.
+
+## 4. Explain Testing
+
+### Input
+
+Explain Newton's law of motion in simple words.
+
+### Expected Result
+
+EduGenie should provide a simple explanation of Newton's law of motion.
+
+### Result
+
+The Explain feature generated an appropriate AI response.
+
+## 5. Quiz Testing
+
+### Input
+
+photosynthesis
+
+### Expected Result
+
+EduGenie should generate three multiple-choice questions with four options and correct answers.
+
+### Result
+
+The Quiz feature generated questions for the selected topic.
+
+## 6. Summary Testing
+
+### Input
+
+photosynthesis
+
+### Expected Result
+
+EduGenie should provide a short summary.
+
+### Result
+
+The Summary feature generated a short response for revision.
+
+## 7. Learning Path Testing
+
+### Input
+
+Python
+
+### Expected Result
+
+EduGenie should generate a structured learning path containing different learning levels.
+
+### Result
+
+The Learning Path feature generated a step-by-step learning path.
+
+## 8. Frontend Testing
+
+The following were verified:
+
+- Home page loads correctly.
+- Task dropdown works.
+- Text area accepts input.
+- Submit button works.
+- Response page displays the user input.
+- Response page displays the generated answer.
+- Ask Another Question link works.
+
+## 9. Backend Testing
+
+FastAPI routes were tested for:
+
+- Q&A
+- Explain
+- Quiz
+- Summary
+- Learning Path
+
+## 10. Deployment Testing
+
+The deployed application was opened through its public Render URL.
+
+The application interface and form functionality were verified after deployment.
+
+## 11. Error Handling
+
+The Gemini API call is wrapped inside a try-except block.
+
+If an error occurs, the application displays a Gemini error message instead of stopping the complete application.
+
+## 12. Conclusion
+
+Testing confirmed that the major EduGenie features and web application workflow function correctly.
